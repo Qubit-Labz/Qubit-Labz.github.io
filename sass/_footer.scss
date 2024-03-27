@@ -2,7 +2,7 @@
   Footer
 -----------------------*/
 .footer {
-  background: #0a0119;
+  background: $background;
 }
 
 .footer__top {
@@ -105,7 +105,7 @@
 
     button {
       font-size: 20px;
-      color: $white-color;
+      color: $black-color;
       border: none;
       height: 50px;
       width: 50px;

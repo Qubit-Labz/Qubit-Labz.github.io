@@ -39,7 +39,7 @@
             &.active {
 
                 a {
-                    
+                    color: $primary-color;
                     &:after {
                         transform: scale(1);
                     }
