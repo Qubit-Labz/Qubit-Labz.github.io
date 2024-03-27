@@ -266,6 +266,15 @@ ol {
   -webkit-animation: loader 0.8s linear infinite;
 }
 
+.slicknav_menutxt {
+  color: $black-color !important;
+  text-shadow: none !important;
+}
+
+.slicknav_icon-bar {
+  background-color: $black-color !important;
+}
+
 @keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);

@@ -258,6 +258,15 @@ ol {
   -webkit-animation: loader 0.8s linear infinite;
 }
 
+.slicknav_menutxt {
+  color: #000000 !important;
+  text-shadow: none !important;
+}
+
+.slicknav_icon-bar {
+  background-color: #000000 !important;
+}
+
 @keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1867,6 +1876,7 @@ ol {
     background: transparent;
     padding: 0;
     display: block;
+    color: #000000;
   }
   .slicknav_nav ul {
     margin: 0;
@@ -1876,7 +1886,7 @@ ol {
   .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
-    color: #ffffff;
+    color: #000000;
     font-weight: 600;
   }
   .slicknav_nav .slicknav_row:hover {
