@@ -714,6 +714,7 @@ ol {
 -----------------------*/
 .team {
   padding-bottom: 90px;
+  background-position: bottom;
 }
 
 .section-title.team__title {
@@ -991,6 +992,7 @@ ol {
 -----------------------*/
 .breadcrumb-option {
   padding-top: 180px;
+  background-position: top;
 }
 
 .breadcrumb__text h2 {
@@ -2097,3 +2099,5 @@ ol {
     padding: 30px 40px 35px 35px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
