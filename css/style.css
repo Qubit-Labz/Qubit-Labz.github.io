@@ -884,6 +884,9 @@ ol {
 .footer__top__logo a {
   display: inline-block;
 }
+.footer__top__logo a img {
+  height: 30px;
+}
 
 .footer__top__social {
   text-align: right;
