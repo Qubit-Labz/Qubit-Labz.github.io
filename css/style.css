@@ -493,6 +493,7 @@ ol {
 .hero__item {
   height: 684px;
   padding-top: 255px;
+  background-position: 50%;
 }
 
 .hero__text span {
@@ -2102,5 +2103,3 @@ ol {
     padding: 30px 40px 35px 35px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
