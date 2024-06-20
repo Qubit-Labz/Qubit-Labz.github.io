@@ -847,6 +847,7 @@ ol {
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 22px;
+  text-shadow: 2px 2px black;
 }
 .callto__text p {
   font-size: 15px;
@@ -854,6 +855,7 @@ ol {
   opacity: 0.7;
   text-transform: uppercase;
   margin-bottom: 55px;
+  text-shadow: 2px 2px black;
 }
 .callto__text a {
   color: #000000;
@@ -1087,10 +1089,11 @@ ol {
 
 .testimonial__text {
   padding: 30px 40px 25px 30px;
-  border: 1px solid #3D3A64;
+  border: 2px solid #ffbd39;
   margin-bottom: 25px;
   position: relative;
   z-index: 9;
+  background-color: #110f0f;
 }
 .testimonial__text P {
   color: #ffffff;
