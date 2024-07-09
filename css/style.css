@@ -439,6 +439,13 @@ ol {
 }
 
 /*---------------------
+  Body
+-----------------------*/
+body {
+  background-color: black;
+}
+
+/*---------------------
   Hero
 -----------------------*/
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
