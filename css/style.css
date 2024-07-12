@@ -1798,6 +1798,16 @@ body {
   border-color: #e1e1e1;
 }
 
+.center-widget-item-email {
+  place-content: center;
+}
+
+.map-generator {
+  max-width: 100%;
+  max-height: 100%;
+  background: none;
+}
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
   .container {

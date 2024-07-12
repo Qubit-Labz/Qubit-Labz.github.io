@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Pageclip -->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
@@ -94,8 +98,8 @@
     <!-- Contact Widget Section Begin -->
     <section class="contact-widget spad">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+            <div class="row center-widget-item-email">
+                <!-- <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
                     <div class="contact__widget__item">
                         <div class="contact__widget__item__icon">
                             <i class="fa fa-map-marker"></i>
@@ -105,8 +109,8 @@
                             <p>Los Angeles Gournadi, 1230 Bariasl</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+                </div> -->
+                <!-- <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
                     <div class="contact__widget__item">
                         <div class="contact__widget__item__icon">
                             <i class="fa fa-phone"></i>
@@ -116,8 +120,8 @@
                             <p>1-677-124-44227 • 1-688-356-66889</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
+                </div> -->
+                <!-- <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
                     <div class="contact__widget__item">
                         <div class="contact__widget__item__icon">
                             <i class="fa fa-map-marker"></i>
@@ -126,6 +130,15 @@
                             <h4>Email</h4>
                             <p>Support@gmail.com</p>
                         </div>
+                    </div>
+                </div> -->
+                <div class="contact__widget__item">
+                    <div class="contact__widget__item__icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="contact__widget__item__text">
+                        <h4>Email</h4>
+                        <p>qubitlabz.dev@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -139,20 +152,28 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2798902705!2d-74.25986790365917!3d40.697670067823786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1596152431947!5m2!1sen!2sbd"
-                            height="450" style="border:0;"></iframe>
+                        <!-- Embedded Google Maps -->
+                        <div style="max-width:100%;overflow:hidden;color:red;width:600px;height:500px;">
+                            <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+                                    src="https://www.google.com/maps/embed/v1/place?q=Johar+Town+Lahore&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
                         <h3>Get in touch</h3>
-                        <form action="#">
+                        <form action="https://send.pageclip.co/WbQWUpwyLp67effNGQ3pBwLUvrgepi3D" class="pageclip-form" method="post">
                             <input type="text" placeholder="Name">
                             <input type="text" placeholder="Email">
                             <input type="text" placeholder="Website">
                             <textarea placeholder="Message"></textarea>
-                            <button type="submit" class="site-btn">Send Message</button>
+                            <button type="submit" class="site-btn pageclip-form__submit pageclip-form__submit--dark-loader">
+                                <span>
+                                    Send Message
+                                </span>
+                            </button>
                         </form>
                     </div>
                 </div>
