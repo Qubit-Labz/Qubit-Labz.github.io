@@ -733,6 +733,8 @@ body {
   height: 390px;
   position: relative;
   overflow: hidden;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
 }
 .team__item:hover .team__item__text {
   bottom: 0;
@@ -753,13 +755,17 @@ body {
   left: 0;
   bottom: -500px;
   width: 100%;
-  padding: 50px 0 30px;
+  padding: 50px 0 10px;
   z-index: 1;
   -webkit-transition: all, 0.5s;
   -moz-transition: all, 0.5s;
   -ms-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
+  background-color: black;
+  opacity: 80%;
+  padding-top: 20px;
+  border-radius: 10px 10px 0 0;
 }
 .team__item__text:before {
   position: absolute;
@@ -2123,3 +2129,5 @@ body {
     padding: 30px 40px 35px 35px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

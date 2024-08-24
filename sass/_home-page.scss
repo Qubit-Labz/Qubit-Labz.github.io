@@ -333,6 +333,8 @@ body {
   height: 390px;
   position: relative;
   overflow: hidden;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
 
   &:hover {
 
@@ -360,9 +362,13 @@ body {
   left: 0;
   bottom: -500px;
   width: 100%;
-  padding: 50px 0 30px;
+  padding: 50px 0 10px;
   z-index: 1;
   @include transition(all, .5s);
+  background-color: black;
+  opacity: 80%;
+  padding-top: 20px;
+  border-radius: 10px 10px 0 0;
 
   &:before {
     position: absolute;
@@ -424,7 +430,7 @@ body {
     margin-bottom: 0;
 
       &:hover {
-        border: 1px solid #222222!important;
+        border: 1px solid #222222 !important;
         background: url(../img/blog/blog-1.jpg);
         background-size: cover;
     }
