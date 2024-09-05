@@ -1264,6 +1264,7 @@ body {
 .portfolio__item__video .play-btn {
   display: inline-block;
   color: #ffffff;
+  background-color: #111111;
   font-size: 20px;
   height: 50px;
   width: 50px;
