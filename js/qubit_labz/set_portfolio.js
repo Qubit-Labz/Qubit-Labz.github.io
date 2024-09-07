@@ -34,6 +34,9 @@ function set_projects() {
         if (project["demo_link"]) {
             if (!project["is_demo_video"]) {
                 demo_link.classList.remove("video-popup");
+                icon_element = demo_link.querySelector("i")
+                icon_element.classList.remove("fa-play");
+                icon_element.classList.add("fa-external-link")
             }
         }
         else {
