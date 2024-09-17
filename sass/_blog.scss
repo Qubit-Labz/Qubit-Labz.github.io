@@ -13,8 +13,8 @@
     margin-bottom: 45px;
 
     &:hover {
-        border: 1px solid transparent!important;
-        background: url(../img/blog/blog-2.jpg) no-repeat;
+        border: 1px solid $primary-color !important;
+        background-position: center;
         background-size: cover;
 
         ul {
