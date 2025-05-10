@@ -22,5 +22,12 @@ projects = [
         "image_url": image_path_prefix + "calendar_pro.jpg",
         'demo_link': "",
         "is_demo_video": false
+    },
+    {
+        "title": "E-commerce Store Inventory Analysis",
+        "category": "data-engineering",
+        "image_url": image_path_prefix + "ecom_inv_pipeline_dashboard.jpg",
+        "demo_link": "https://lookerstudio.google.com/s/u6gGdCfOaag",
+        "is_demo_video": false,
     }
 ]
